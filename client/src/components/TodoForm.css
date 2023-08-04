@@ -1,0 +1,69 @@
+.form-background {
+    text-align: center;
+}
+
+.form-container:active {
+    border: 2px solid white;
+    --glow-line-color: #fff;
+    --glow-line-thickness: 2px;
+    --glow-line-length: 20px;
+    --glow-blur-color: #fff;
+    --glow-blur-size: 5px;
+    --glow-offset: 0px;
+    --animation-speed: 1200ms;
+    --container-offset: 100px;
+}
+
+
+.destination-field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    border-radius: 7px;
+    border-width: 0px;
+    width: 100%;
+}
+
+#from {
+    padding: 6px;
+    border-radius: 5px;
+    margin: 10px;
+    border-width: 0px;
+    text-align: center;
+}
+
+#to {
+    padding: 6px;
+    border-radius: 5px;
+    margin: 10px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.date-size {
+    font-size: 23px;
+}
+
+.add-button {
+    background-color: hsla(0, 0%, 13%, 1);
+    border: 1px solid #f8f9fa;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.add-button:hover {
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width:768px) {
+    .destination-field {
+        height: 50px;
+    }
+
+    .date-size {
+        font-size: 18px;
+    }
+}

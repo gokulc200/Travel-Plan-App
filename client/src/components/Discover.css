@@ -1,0 +1,48 @@
+.discover-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8006e3;
+    padding-bottom: 10px;
+}
+
+.menu-item-link {
+    color: #fa953c;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.discover-card{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    height: 425px;
+}
+
+.discover-card:hover {
+    transform: translateY(1rem);
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+@media screen and (min-width:768px){
+    .discover-container{
+        min-height: 90vh;
+    }
+
+    .discover-card{
+        height: 410px;
+    }
+}

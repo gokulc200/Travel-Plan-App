@@ -1,0 +1,65 @@
+.login-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8006e3;
+}
+
+.login-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.start-image{
+    height: 100vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-heading{
+    color: white;
+}
+
+.trip-features{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+.btn-image{
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+}
+
+.signin-btn{
+    font-size: 20px;
+    background-color: #36393a;
+    color: white;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border-width: 0px;
+}
+
+.signin-btn:hover{
+    background-color: rgb(230, 64, 64);
+    color: white;
+}
+
+@media screen and (max-width:568px){
+    .trip-features{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .signin-btn{
+        height: 50px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,27 @@
+.footer-background{
+min-height: 10vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color:black ;
+color: grey;
+padding: 20px;
+}
+
+.footer-heading{
+    font-size: 20px;
+}
+
+@media screen and (max-width:576px){
+    .footer-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-heading{
+        font-size: 18px;
+    }
+}
